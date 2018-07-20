@@ -2,12 +2,12 @@
 
 buildscript {
     repositories {
-        jcenter()
 
-        maven {
-            url "http://maven.bughd.com/public"
-        }
         google()
+        /*maven {
+            url "http://maven.bughd.com/public"
+        }*/
+        jcenter()
     }
 
     dependencies {
@@ -17,8 +17,8 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
         google()
+        jcenter()
     }
 }
 
