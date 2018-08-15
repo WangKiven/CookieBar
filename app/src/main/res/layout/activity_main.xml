@@ -25,8 +25,26 @@
         android:text="Top cookie with a icon" />
 
     <Button
+        android:id="@+id/btn_top_only_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top cookie only title" />
+
+    <Button
+        android:id="@+id/btn_top_only_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top cookie only message" />
+
+    <Button
         android:id="@+id/btn_custom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="A custom cookie" />
+
+    <Button
+        android:id="@+id/btn_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="anim"/>
 </LinearLayout>

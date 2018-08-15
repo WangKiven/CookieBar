@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -20,7 +21,7 @@ import android.widget.TextView;
 /**
  * Created by Eric on 2017/3/2.
  */
-final class Cookie extends LinearLayout {
+final class Cookie extends FrameLayout {
 
   private Animation slideInAnimation;
   private Animation slideOutAnimation;
